@@ -1,1 +1,2 @@
-# lobbycore
+# LobbyCore
+`LobbyCore By IzyanzZ`
