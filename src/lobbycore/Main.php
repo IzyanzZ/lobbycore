@@ -31,11 +31,11 @@ class Main extends PluginBase implements Listener {
         $player->getInventory()->clearAll();
 
         $item = Item::get(399, 0, 1);
-        $item->setCoustomName("LobbyCore");
+        $item->setCustomName("LobbyCore");
         $item2 = Item::get(409, 0, 1);
-        $item2->setCoustomName("Lobby");
+        $item2->setCustomName("Lobby");
         $item3 = Item::get(385, 0, 1);
-        $item3->setCoustomName("LobbyC");
+        $item3->setCustomName("LobbyC");
 
         $player->getInventory()->setItem(0, $item);
         $player->getInventory()->setItem(4, $item2);
