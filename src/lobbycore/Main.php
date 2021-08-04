@@ -48,13 +48,13 @@ class Main extends PluginBase implements Listener {
         $in = $player->getInventory()->getItemInHand()->getCustomName();
 
         if ($in == "LobbyCore"){
-            $player->sendMessage("Haiiiiiii")
+            $player->sendMessage("Haiiiiiii");
         }
         if ($in == "LobbyC"){
-            $player->sendMessage("Haiiiiiii")
+            $player->sendMessage("Haiiiiiii");
         }
         if ($in == "LobbyC"){
-            $player->sendMessage("Haiiiiiii")
+            $player->sendMessage("Haiiiiiii");
         }
 
 
